@@ -1,0 +1,39 @@
+.banner {
+    height: 10rem;
+}
+.banner img {
+    height: 10rem;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tittle-section {
+    text-align: center;
+}
+
+section{
+    padding-bottom: 1.75rem;
+}
+.planes {
+    display: flex;
+    gap: 1rem;
+
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: var(--bg-color-dark);
+}
+
+footer div{
+    margin: auto;
+}
+
+.footer-links{
+    color: hotpink;
+}

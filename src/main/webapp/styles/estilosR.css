@@ -1,35 +1,42 @@
 @import url('./global.css');
-
-nav {
-    padding: 10px;
+nav{
+    display: flex;
+    position: fixed;
+    background-color: var(--bg-color-dark);
+    width: 100%;
+    z-index: 1;
 }
 
-nav .logo {
-    margin-right: 50px;
+nav .logo{
+    align-items: center;
+    justify-content: center;
 }
 
-nav .logo img {
+nav .logo img{
     height: 70px;
+    padding: 15px;
 }
 
-nav a {
+nav a{
     font-family: "Alan Sans", sans-serif;
     color: var(--nav-links);
     font-weight: 600;
 }
 
-nav ul {
+nav ul{
     display: inline;
+    margin-left: auto;
+    padding: 1.5rem
 }
 
-nav li {
+nav li{
     list-style: none;
     display: inline;
     margin-left: 20px;
 
 }
 
-nav li a:hover {
+nav li a:hover{
     color: var(--links-color-hover);
 }
 
@@ -85,8 +92,8 @@ body {
 }
 
 .formulario-usuario input:focus{
-        background-color: #EDF67D ;
-        outline: none;
+    background-color: #EDF67D ;
+    outline: none;
 }
 
 .options {
@@ -138,4 +145,18 @@ body {
 .selects {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: var(--bg-color-dark);
+}
+
+footer div{
+    margin: auto;
+}
+
+.footer-links{
+    color: hotpink;
 }
