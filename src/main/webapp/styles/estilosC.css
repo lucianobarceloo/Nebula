@@ -1,0 +1,121 @@
+@import url('./global.css');
+
+nav {
+    padding: 10px;
+}
+
+nav .logo {
+    margin-right: 50px;
+}
+
+nav .logo img {
+    height: 70px;
+}
+
+nav a {
+    font-family: "Alan Sans", sans-serif;
+    color: var(--nav-links);
+    font-weight: 600;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+
+}
+
+nav li a:hover {
+    color: var(--links-color-hover);
+}
+
+header img {
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+}
+
+header h1 {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 100px;
+    font-family: "Alan Sanas", sans-serif;
+    width: 70%;
+    font-size: 6rem;
+    color: white;
+}   
+
+body{
+    background-color: black;
+    text-align: left;
+}
+
+.tabla-usuarios {
+    width: 50%;
+    margin-left: 10px;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    background-color: #3E5577;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+
+}
+
+.tabla-usuarios span{
+    display: block;
+    color: rgb(255, 156, 237);
+    font-size: 0.9em;
+    margin-top: 2px;
+}
+
+thead{
+    color: rgb(255, 156, 237);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+}
+
+.tabla-usuarios td, .tabla-usuarios th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+.tabla-usuarios tr {
+    height: 60px;
+}
+
+.tabla-usuarios td{
+    border: 1px solid #3E5577;
+}
+
+.par{
+    background-color: #7ba6ef;
+}
+
+section h3{
+    color: white;
+    font-size: 20px;
+}
+
+footer a{
+    color: rgb(255, 156, 237);
+}
+
+footer div, footer p{
+    color: rgb(255, 247, 175);
+}
+
+footer{
+    margin-top: 10px;
+    margin-left: 300px;
+    font-size: 17px;
+}
+

@@ -1,0 +1,116 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25 sept 2025, 15:26:23
+    Author     : Hp
+*/
+@import url('./global.css');
+
+body{
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+    font-family: "Quicksand", sans-serif;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    background-color: var(--bg-color-dark);
+    width: 100%;
+    z-index: 1;
+}
+
+nav .logo{
+    align-items: center;
+    justify-content: center;
+}
+
+nav .logo img{
+    height: 70px;
+    padding: 15px;
+}
+
+nav a{
+    font-family: "Alan Sans", sans-serif;
+    color: var(--nav-links);
+    font-weight: 600;
+}
+
+nav ul{
+    display: inline;
+    margin-left: auto;
+    padding: 1.5rem
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+    
+}
+
+nav li a:hover{
+    color: var(--links-color-hover);
+}
+
+header{
+    position: relative;
+}
+
+header img{
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+}
+
+header h1{
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50px; 
+    font-family: "Alan Sanas", sans-serif;
+    width: 60%;
+    font-size: 4rem;
+}
+
+header span{
+    font-style: italic;
+    font-weight: 500;
+    color: var(--highlight);
+}
+
+.news{
+    margin-top: 30px;
+    display: flex;
+    margin: auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+article{
+    display: flex;
+    flex-direction: column; 
+    width: 30%;
+    min-width: 270px;
+    margin: auto;
+    align-items: center;
+}
+
+article img{
+    width: 250px;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+}
+
+footer div{
+    margin: auto;
+}
+
+.footer-links{
+    color: hotpink;
+}

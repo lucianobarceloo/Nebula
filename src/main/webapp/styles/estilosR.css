@@ -1,0 +1,141 @@
+@import url('./global.css');
+
+nav {
+    padding: 10px;
+}
+
+nav .logo {
+    margin-right: 50px;
+}
+
+nav .logo img {
+    height: 70px;
+}
+
+nav a {
+    font-family: "Alan Sans", sans-serif;
+    color: var(--nav-links);
+    font-weight: 600;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+
+}
+
+nav li a:hover {
+    color: var(--links-color-hover);
+}
+
+header {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+}
+
+header h1 {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 250px;
+    font-family: "Alan Sanas", sans-serif;
+    width: 100%;
+    font-size: 6rem;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.formulario-usuario {
+    width: 95%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #3E5577;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formulario-usuario label {
+    color: white;
+    font-size: 30px;
+}
+
+.formulario-usuario .radios_estados {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 4px;
+}
+
+.formulario-usuario input{
+    height: 30px;
+    font-size: 15px;
+}
+
+.formulario-usuario input:focus{
+        background-color: #EDF67D ;
+        outline: none;
+}
+
+.options {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: row !important;
+    /*el important para forzar q la direccion sea asi*/
+    gap: 10px;
+}
+
+.options button {
+    font-size: 20px;
+}
+
+.formulario-usuario span {
+    color: white;
+    font-size: 15px;
+}
+
+.formulario-usuario div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    /* separa los bloques */
+}
+
+.radios_estados {
+    display: inline;
+}
+
+.titulo {
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 0.025px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.titulo h3 {
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.selects {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
